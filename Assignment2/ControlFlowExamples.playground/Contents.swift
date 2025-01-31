@@ -1,3 +1,5 @@
+import UIKit
+
 // 1. If-Else Condition: Check if the age is 18 or older
 let age = 18
 

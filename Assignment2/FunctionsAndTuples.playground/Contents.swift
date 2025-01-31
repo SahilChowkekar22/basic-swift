@@ -1,3 +1,5 @@
+import UIKit
+
 // 1. Function without Parameters: Display a message
 func displayMessage(){
     print("First Line")

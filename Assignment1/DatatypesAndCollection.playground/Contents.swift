@@ -1,6 +1,4 @@
 import UIKit
-
-
 // var and let are variable and constant
 // var is mutable and char is Immutable
 
@@ -108,7 +106,7 @@ print(fruits1)
 var num1: Set<Int> = [1,3,4,2,3,5,4,2,4]
 print(num1)
 
-print()  
+print()
 
 // Dictionary-  creating key:value pair
 var person = ["name":"Sahil","city":"LA"]

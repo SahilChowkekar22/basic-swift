@@ -1,4 +1,5 @@
-//: [Previous](@previous)
+import UIKit
+
 import Foundation
 
 // Declaring an optional integer variable
