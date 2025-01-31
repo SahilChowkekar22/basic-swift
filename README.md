@@ -63,16 +63,4 @@ This assignment expands on core Swift concepts and introduces control flow, func
 
 ---
 
-## Contributing
-
-Feel free to contribute by improving existing examples or adding new Swift concepts. Open a pull request with your changes!
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
-
 Happy Coding! 🚀
