@@ -44,6 +44,29 @@ This assignment expands on core Swift concepts and introduces control flow, func
 - Working with optionals to prevent runtime errors
 
 ---
+### Assignment 3: Advanced Swift - Classes, Structures, Protocols, Extensions, and Optional Chaining
+
+This assignment delves into more advanced Swift topics, providing a deeper understanding of object-oriented and protocol-oriented programming paradigms.
+
+#### Files Included:
+
+- **ClassesAndObject.playground**: Demonstrates the definition and usage of classes and objects, highlighting their properties, methods, and initializers.
+- **Struct.playground**: Explores structures in Swift, emphasizing their value-type behavior, properties, and methods.
+- **Protocol.playground**: Covers the definition and adoption of protocols, illustrating how they define blueprints for methods and properties.
+- **Extension.playground**: Shows how to extend existing types with new functionality, including methods, computed properties, and protocol conformances.
+- **OptionalChaining.playground**: Provides examples of optional chaining to safely access properties, methods, and subscripts of optional values.
+- **TypesOfProperties.playground**: Discusses different property types in Swift, such as stored properties, computed properties, lazy properties, and property observers.
+
+#### Key Concepts:
+
+- **Classes and Objects**: Reference types that support inheritance, enabling the creation of complex hierarchies.
+- **Structures**: Value types that are copied upon assignment, suitable for encapsulating simple data values.
+- **Protocols**: Blueprints that define methods, properties, and other requirements for conforming types, facilitating a flexible and decoupled code structure.
+- **Extensions**: Mechanisms to add new functionality to existing types without modifying their source code, enhancing code organization.
+- **Optional Chaining**: A process for querying and calling properties, methods, and subscripts on optional values that might currently be `nil`, providing a concise and safe syntax.
+- **Types of Properties**: Understanding various property types in Swift, including stored and computed properties, as well as property observers.
+
+---
 
 ## How to Use This Repository
 
