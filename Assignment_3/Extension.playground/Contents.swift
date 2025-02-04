@@ -5,7 +5,7 @@ import UIKit
 // Extension to add a method that checks if an array is empty or not
 extension Array{
     func isEmptyOrNot() -> String{
-        return self.isEmpty ? "Array is Empty" : "Arrya is not Empty"
+        return self.isEmpty ? "Array is Empty" : "Array is not Empty"
     }
 }
 
