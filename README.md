@@ -67,6 +67,45 @@ This assignment delves into more advanced Swift topics, providing a deeper under
 - **Types of Properties**: Understanding various property types in Swift, including stored and computed properties, as well as property observers.
 
 ---
+### Assignment 4: Advanced Swift Concepts
+
+###  Overview
+
+In this assignment, we delve into advanced Swift programming concepts, including:
+
+- **Enums and Their Types**: Understanding the power and flexibility of enumerations in Swift.
+- **Generics and Their Uses**: Learning how to write flexible and reusable code with generics.
+- **Closures and Their Types**: Delving into closures, a fundamental concept for functional programming in Swift.
+
+###  Files Included
+
+- **Enum.playground**: Demonstrates the definition and usage of enums with associated values and raw values, highlighting their versatility in modeling different states and behaviors.
+- **Generic.playground**: Explores the implementation of generics in functions, classes, and structs, showcasing how to write type-safe and reusable code.
+- **Closure.playground**: Provides examples of closures, including escaping and non-escaping closures, and their applications in asynchronous programming and functional patterns. This file also covers **trailing closures**, a syntax feature that enhances code readability when passing closures as function arguments.
+
+ ### Key Concepts
+
+### Enums and Their Types
+
+- **Enums**: Define a common type for a group of related values and enable you to work with those values in a type-safe manner.
+- **Associated Values**: Allow you to store additional information along with each case of an enum.
+- **Raw Values**: Provide a default value for each case, enabling initialization from a raw value.
+
+### Generics and Their Uses
+
+- **Generics**: Enable you to write flexible and reusable code that can work with any type.
+- **Generic Constraints**: Allow you to specify that a generic type must conform to a particular protocol or class.
+- **Associated Types**: Define placeholder types within protocols, enabling more abstract and flexible code.
+
+### Closures and Their Types
+
+- **Closures**: Self-contained blocks of functionality that can be passed around and used in your code.
+- **Escaping Closures**: Closures that are passed as arguments to functions and are called after the function returns.
+- **Non-Escaping Closures**: Closures that are passed as arguments to functions and are called before the function returns.
+- **Autoclosures**: Closures that automatically capture an expression and delay its evaluation.
+- **Trailing Closures**: A syntax feature that allows you to write closures as the final argument to a function, outside of the function's parentheses, enhancing code readability. :contentReference[oaicite:0]{index=0}
+
+---
 
 ## How to Use This Repository
 
