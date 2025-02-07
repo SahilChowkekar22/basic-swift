@@ -36,14 +36,15 @@ print()
 
 func delayedWork(completion: @escaping () -> Void) {
     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-        completion()      }
+        completion()
+    }
     print("Work Initiated")
 }
 
-delayedWork {
+delayedWork(completion: {
     print("Closure executed after 2 seconds")
-}
-
+ }
+)
 print()
 
 /* Trailing closure - Trailing closures allow you to write closures outside of the function's parentheses when they are the last argument passed to a function. This can make the code more readable, especially when the closure is long. */

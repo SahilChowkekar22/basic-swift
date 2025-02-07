@@ -29,7 +29,7 @@ enum StatusCode: Int {
     }
 }
 
-let status = StatusCode(rawValue: 500)
+let status = StatusCode(rawValue: 100)
 print(status?.description() ?? "Unknown status code")
 
 print()
