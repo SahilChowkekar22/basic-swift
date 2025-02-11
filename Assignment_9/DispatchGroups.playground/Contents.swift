@@ -7,11 +7,10 @@ import UIKit
 
 
 
-// Simulate preparing a dish
+
 func prepareDish(named dishName: String, completion: @escaping () -> Void) {
     print("Preparing \(dishName)...")
     DispatchQueue.global().async {
-        // Simulate preparation time
         let preparationTime = Double.random(in: 2...5)
         Thread.sleep(forTimeInterval: preparationTime)
         print("\(dishName) is ready!")

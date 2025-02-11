@@ -77,7 +77,7 @@ cleanUpOperation.addDependency(processFile1Operation)
 cleanUpOperation.addDependency(processFile2Operation)
 cleanUpOperation.addDependency(processFile3Operation)
 
-// Set priorities
+// priorities
 downloadFile1Operation.queuePriority = .high
 downloadFile2Operation.queuePriority = .normal
 downloadFile3Operation.queuePriority = .low

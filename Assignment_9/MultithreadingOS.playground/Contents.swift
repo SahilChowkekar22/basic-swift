@@ -60,7 +60,7 @@ let imageDownloadQueue = DispatchQueue(label: "com.example.imageDownloadQueue", 
 func downloadImage(_ name:String){
     imageDownloadQueue.async {
         print("Downloading image \(name)...")
-//        sleep(UInt32(Int.random(in: 1...3)))
+        sleep(UInt32(Int.random(in: 1...3)))
         print("Downloaded image \(name).")
     }
 }
